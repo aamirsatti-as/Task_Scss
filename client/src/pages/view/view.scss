@@ -1,0 +1,72 @@
+//SCSS
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+  
+    th {
+      background-color: #e6e6e6;
+      text-align: left;
+      padding: 8px;
+      font-size: 25px;
+    }
+  
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      font-size: 20px;
+    }
+  
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+  
+    @media (max-width: 320px) {
+      th, td {
+        display: block;
+      }
+      th {
+        text-align: right;
+      }
+    }
+
+  }
+      h1{
+        display: flex;
+        background-color:#fff;
+        justify-content: center;
+    }  
+    .styled-button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 16px;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      
+        &:hover {
+          background-color: #3e8e41;
+        }
+      }
+      .styled-button2{
+        background-color: red;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 16px;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      
+        &:hover {
+          background-color: red;
+        }
+    }
+      
+  
