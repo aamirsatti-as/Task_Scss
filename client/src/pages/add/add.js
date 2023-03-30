@@ -4,6 +4,7 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import Navbar from "../navbar/navbar"; 
 
+//changes
 const Add = () => {
   const [category, setCategory] = useState("");
   const [title, setTitle] = useState("");
